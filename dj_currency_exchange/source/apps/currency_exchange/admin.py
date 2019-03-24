@@ -1,7 +1,3 @@
-"""
-doc string goes here
-"""
-
 __all__ = []
 
 # Standard library imports.
