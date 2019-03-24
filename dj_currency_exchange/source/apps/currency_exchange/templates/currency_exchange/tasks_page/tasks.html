@@ -1,0 +1,23 @@
+{% extends 'currency_exchange/base/base.html' %}
+
+
+{% load i18n %}
+
+{% block title %}
+    {% trans 'Tasks List' %}
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-8">
+            <h1>{% trans 'Tasks' %}</h1>
+
+            {% for tas in tasks %}
+                <p>
+                    {{ tas.project }} - {{ tas.task_name }}-{{ tas.task_name }}-{{ tas.status }}
+                </p>
+            {% endfor %}
+            
+        </div>
+    </div>
+{% endblock %}
