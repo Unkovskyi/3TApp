@@ -27,6 +27,7 @@ class ProviderList(TemplateView):
         return context
 
 
+
 class ProjectsList(TemplateView):
     template_name = 'currency_exchange/projects_page/projects.html'
 

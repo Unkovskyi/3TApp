@@ -66,6 +66,8 @@ class CurrencyExchangeRate(models.Model):
 
 
 
+
+
 class Users(models.Model):
     code = models.CharField(max_length=100, primary_key=True)
     name = models.CharField(max_length=200, blank=False)

@@ -42,6 +42,8 @@ class CurrencyExchangeRateAdmin(admin.ModelAdmin):
             return False
 
 
+
+
 class ProjectAdmin(admin.ModelAdmin):
     list_display = ('code', 'name', 'start_date', 'end_date', 'estimation_hours')
     list_editable = ('name',)
